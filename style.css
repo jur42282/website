@@ -184,18 +184,16 @@ nav a:hover {
 	align-items: flex-start;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 550px){
+    .sidebar{
+        width: 100%;
+    }
     .hideOnMobile{
         display: none;
     }
     .menu-button{
         display: block;
         transition: ease;
-    }
-}
-@media(max-width: 550px){
-    .sidebar{
-        width: 100%;
     }
 }
 
