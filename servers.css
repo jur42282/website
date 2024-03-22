@@ -128,7 +128,7 @@ nav a:hover {
     .players {
         opacity: 1;
         transition: ease-in-out 0.3s;
-        transform: translateY(-60px);
+        transform: translateY(-80px);
     }
     transition: 0.3s;
 }
@@ -142,7 +142,7 @@ nav a:hover {
     font-size: 1.5em;
     opacity: 0;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 1px 0 10px rgba(0,0,0,0.1);
     border-radius: 15px;
     transition: 0.1s;
 }
@@ -166,7 +166,7 @@ nav a:hover {
 }
 
 #container5 {
-    background-color: var(--primary);
+    background-image: url("pvp-banner.png");
 }
 
 @media(max-width: 550px){
