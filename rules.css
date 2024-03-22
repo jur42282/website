@@ -150,18 +150,26 @@ ul {
 	align-self: flex-start;
 }
 
-@media(max-width: 550px){
-    .sidebar{
-        width: 100%;
-    }
-    .hideOnMobile{
-        display: none;
-    }
-    .menu-button{
-        display: block;
-        transition: ease;
-    }
+@media(max-width: 550px) {
+	.sidebar {
+		width: 100%;
+	}
 
+	.hideOnMobile {
+		display: none;
+	}
+
+	.menu-button {
+		display: block;
+		transition: ease;
+	}
+
+	.rules {
+		max-width: 100vw;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
 .hidden {
     opacity: 0;
     transition: ease-in-out 1s;

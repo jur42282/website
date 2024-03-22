@@ -203,18 +203,20 @@ nav a:hover {
 	align-items: flex-start;
 }
 
-@media(max-width: 550px){
-    .sidebar{
+@media(max-width: 550px) {
+    .sidebar {
         width: 100%;
     }
-    .hideOnMobile{
+
+    .hideOnMobile {
         display: none;
     }
-    .menu-button{
+
+    .menu-button {
         display: block;
         transition: ease;
     }
-
+}
 .hidden {
     opacity: 0;
     transition: ease-in-out 1s;
