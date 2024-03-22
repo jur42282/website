@@ -173,7 +173,6 @@ nav a:hover {
 #container3 {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: var(--text);
     padding: 3px;
     min-width: 100vw;
