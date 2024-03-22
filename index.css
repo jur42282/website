@@ -113,16 +113,35 @@ nav a:hover {
 	flex-direction: column;
 }
 
+#midway-banner {
+    min-width: 80vw;
+    transition: ease-in-out 0.1s;
+}
+
+#midway-banner:hover {
+    transform: scale(1.01);
+    transition: ease-in-out 0.3s;
+}
+
 .bn53 {
-    background-color: var(--accent);
+    background-color: #f2edf1;
     padding: 7px;
     width: 200px;
+    height: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     animation: bn53bounce 4s infinite;
     cursor: pointer;
 	position: relative;
-	margin-top: 500px;
-	color: var(--text);
+	margin-top: 50px;
+	color: #120d11;
+    font-weight: bolder;
+    transition: ease-in-out 0.3s;
+}
+
+.bn53:hover {
+    background-color: #120d11;
+    color: #f2edf1;
+    transition: ease-in-out 0.3s;
 }
 
 @keyframes bn53bounce {
@@ -194,7 +213,6 @@ nav a:hover {
         display: block;
         transition: ease;
     }
-}
 
 .hidden {
     opacity: 0;
