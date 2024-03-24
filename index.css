@@ -190,17 +190,44 @@ nav a:hover {
     min-width: 100vw;
 }
 
-#container3 {
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--text);
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.1);
+}
+
+.socials {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.socials a {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
     color: var(--text);
-    padding: 3px;
-    min-width: 100vw;
-    min-height: 100px;
-    background-color: var(--primary);
-    margin-top: 20px;
-	flex-direction: column;
-	align-items: flex-start;
+}
+
+.socials a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+footer p {
+    margin: 0 10px;
+    text-align: center;
 }
 
 @media(max-width: 550px) {
