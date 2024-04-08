@@ -34,6 +34,10 @@ body {
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 nav {
     background-color: var(--primary);
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
